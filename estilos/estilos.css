@@ -170,17 +170,54 @@ h2 {
 
 .servGrid {
 display: grid;
+grid-template-columns: 1fr 2fr;
+row-gap: 10px ;
+column-gap: 10px;
+grid-template-areas: 
+"servImagen ServTexto Servtexto"
+"servImagen ServTexto Servtexto"
+"servImagen ServTexto Servtexto"
+"servImagen ServTexto Servtexto"
+"servImagen ServTexto Servtexto"
+;
 }
 
 .servImagen {
+
 border: 1px solid black;
 height: 230px;
-width: 300px;
+width: 320px;
 }
 
+
 .servTexto {
-border: 1px solid black;
-height: 230px;
+grid-column: 3/4;
+font-size: 15pt;
+}
+
+.servImagen1{
+background-image: url(../img/estructura_metalica.jpg);
+background-size: cover;
+}
+
+.servImagen2{
+background-image: url(../img/);
+background-size: cover;
+    }
+
+.servImagen3{
+background-image: url(../img/);
+background-size: cover;
+}
+
+.servImagen4{
+background-image: url(../img/);
+background-size: cover;
+    }
+
+.servImagen5{
+background-image: url(../img/);
+background-size: cover;
 }
 
 /* Trabajos */
