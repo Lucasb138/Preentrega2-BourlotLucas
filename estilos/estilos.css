@@ -10,32 +10,40 @@ body{
 }
 
 header {
-    height: 90px;
+    background-color: rgb(88, 87, 87) ;
+    background-image: linear-gradient(to left,rgb(88, 87, 87),rgb(41, 41, 41));
     width: 100%;
-    background-color:  rgb(88, 87, 87) ;
-    font-size: 30px;
     text-transform: capitalize;
-    padding: 15px;
     border: 1px solid rgb(194, 109, 12);
-    
-    
 }
 
 
-
-#logoimg {
-    float: left;
+#logo-img {
+    background-color: red;
+    background-image: url(../img/Silgar\ copia.PNG);
+    background-size: cover;
     height: 80px;
-    display: flex;
-    margin-left: -12px;
-    margin-top: -10px;
-
-
+    width: 80px;
 }
 
-.logo {
-    float: left;
+
+
+#navegacion {
+    font-size: 18px;
+}
+
+#navegacion a{
+    color: white;
+}
+
+#navegacion a:hover{
     color: rgb(194, 109, 12);
+    text-decoration: underline;
+}
+
+
+.navbar-brand {
+    color: rgb(194, 109, 12) !important;
     font-weight: bold;
     padding-top: 10px;
     margin-left: 10px;
@@ -43,25 +51,7 @@ header {
 }
 
 .barra {  
-    float: right;
     color: white;
-}
-
-.barra ul li{
-list-style-type: none;
-display: inline-block;
-
-}
-
-.barra ul li a{
-    text-decoration: none;
-    color: white;
-    word-spacing: 5px;
-
-}
-.barra a:hover{ 
-    color: rgb(194, 109, 12);
-    text-decoration: underline;
 }
 
 
@@ -82,12 +72,13 @@ main {
     color: white;
     border: 2px solid rgb(14, 2, 17)
 }
-#titulo h1{
+h1{
     margin: calc(34vh);
     padding: 10px 10px;
     text-align: center;
     font-weight: bold;
     border: 2px solid rgb(194, 109, 12);
+    border-radius: 10px;
     background-color: rgba(51, 51, 51, 0.404);
 }
 
@@ -168,32 +159,23 @@ h2 {
     font-size: 25px;
 }
 
-.servGrid {
-display: grid;
-grid-template-columns: 1fr 2fr;
-row-gap: 10px ;
-column-gap: 10px;
-grid-template-areas: 
-"servImagen ServTexto Servtexto"
-"servImagen ServTexto Servtexto"
-"servImagen ServTexto Servtexto"
-"servImagen ServTexto Servtexto"
-"servImagen ServTexto Servtexto"
-;
+.servicio {
+    background-color: aliceblue;
+    height: 250px;
 }
 
-.servImagen {
+.galeriaServicios {
+    width: 100%;
+    height: 250px;
+}
 
-border: 1px solid black;
-height: 230px;
-width: 320px;
+.textoServicios{
+    font-size: 10pt;
 }
 
 
-.servTexto {
-grid-column: 3/4;
-font-size: 15pt;
-}
+
+
 
 .servImagen1{
 background-image: url(../img/estructura_metalica.jpg);
@@ -201,21 +183,26 @@ background-size: cover;
 }
 
 .servImagen2{
-background-image: url(../img/);
+    background-image: url(../img/grain_silos_1920.jpg);
+    background-size: cover;
+}
+
+.servImagen3{
+background-image: url(../img/SiloAereo01-p-500.jpeg);
 background-size: cover;
     }
 
-.servImagen3{
-background-image: url(../img/);
+.servImagen4{
+background-image: url(../img//Transportador2-p-800.png);
 background-size: cover;
 }
 
-.servImagen4{
-background-image: url(../img/);
+.servImagen5{
+background-image: url(../img/Elevador1-p-500.png);
 background-size: cover;
     }
 
-.servImagen5{
+.servImagen6{
 background-image: url(../img/);
 background-size: cover;
 }
@@ -270,4 +257,33 @@ background-size: cover;
 
 #footerContacto {
 height: 150px
+}
+
+
+@media screen and (min-width: 1024px) {
+    #navegacion {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        font-size: 30px;
+    }
+}
+@media screen and (min-width: 700px) {
+    #navegacion {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+
+    }
+}
+
+
+@media screen and (max-width: 440px) {
+    .logo a{
+        font-size: 13px;
+        margin-left: 0px;
+        padding: 0px;
+    }
 }
