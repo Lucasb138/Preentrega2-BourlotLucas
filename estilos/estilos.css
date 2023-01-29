@@ -5,26 +5,30 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-body{
-    background-color: rgb(117, 117, 117) ;
+body {
+    background-color: rgb(117, 117, 117);
 }
 
 header {
-    background-color: rgb(88, 87, 87) ;
-    background-image: linear-gradient(to left,rgb(88, 87, 87),rgb(41, 41, 41));
+    background-color: rgb(88, 87, 87);
+    background-image: linear-gradient(to left, rgb(105, 105, 105), rgb(41, 41, 41));
     width: 100%;
     text-transform: capitalize;
     border: 1px solid rgb(194, 109, 12);
 }
 
+.logo a {
+    margin-left: 0px;
+    padding: 0px;
+}
 
 #logo-img {
-    background-color: red;
-    background-image: url(../img/Silgar\ copia.PNG);
-    background-size: cover;
     height: 80px;
     width: 80px;
+    background-image: url(../img/Silgar\ copia.PNG);
+    background-size: cover;
 }
+
 
 
 
@@ -32,11 +36,11 @@ header {
     font-size: 18px;
 }
 
-#navegacion a{
+#navegacion a {
     color: white;
 }
 
-#navegacion a:hover{
+#navegacion a:hover {
     color: rgb(194, 109, 12);
     text-decoration: underline;
 }
@@ -50,7 +54,7 @@ header {
 
 }
 
-.barra {  
+.barra {
     color: white;
 }
 
@@ -61,21 +65,20 @@ main {
     background-color: white;
 }
 
-.paginaPrincipal {
-    height: 80vh;
-    width: 100%;
-    margin: 0 0 0 0;
+.jumbotron-fluid {
+    height: 500px;
+    padding: 0;
     background-color: #333;
     background-image: url(../img/industry-ged8380efc_1920.jpg);
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     color: white;
-    border: 2px solid rgb(14, 2, 17)
+    border: 2px solid rgb(14, 2, 17);
 }
-h1{
-    margin: calc(34vh);
-    padding: 10px 10px;
-    text-align: center;
+
+h1 {
+    width: 100%;
+    margin-top: 250px;
     font-weight: bold;
     border: 2px solid rgb(194, 109, 12);
     border-radius: 10px;
@@ -85,11 +88,12 @@ h1{
 
 
 
-.intro{
+
+.intro {
     height: auto;
     width: auto;
     margin: 30px 40px 8px;
-    padding: 15px 20px ;
+    padding: 15px 20px;
     font-size: 18px;
     text-align: start;
     color: rgb(0, 0, 0);
@@ -102,17 +106,19 @@ h1{
 
 
 footer {
-    height: 100px;
-    width: auto;
+    height: auto;
+    width: 100%;
     background-color: rgb(194, 109, 12);
     color: white;
     text-align: center;
 }
 
-footer p{
-    margin-bottom: 15px;
+footer h4 {
+    font-size: 35px;
 }
-footer .redes a{
+
+
+footer .redes a {
     text-decoration: none;
     font-size: 50px;
     letter-spacing: 20px;
@@ -132,7 +138,7 @@ h2 {
 
 
 .cuerpoTray {
-    
+
     font-size: 25px;
 }
 
@@ -146,7 +152,7 @@ h2 {
     background-color: red;
 }
 
-.cuerpoTray .desan{
+.cuerpoTray .desan {
     margin-top: 40px;
     font-size: 26px;
     margin-left: 140px;
@@ -169,7 +175,7 @@ h2 {
     height: 250px;
 }
 
-.textoServicios{
+.textoServicios {
     font-size: 10pt;
 }
 
@@ -177,49 +183,49 @@ h2 {
 
 
 
-.servImagen1{
-background-image: url(../img/estructura_metalica.jpg);
-background-size: cover;
+.servImagen1 {
+    background-image: url(../img/estructura_metalica.jpg);
+    background-size: cover;
 }
 
-.servImagen2{
+.servImagen2 {
     background-image: url(../img/grain_silos_1920.jpg);
     background-size: cover;
 }
 
-.servImagen3{
-background-image: url(../img/SiloAereo01-p-500.jpeg);
-background-size: cover;
-    }
-
-.servImagen4{
-background-image: url(../img//Transportador2-p-800.png);
-background-size: cover;
+.servImagen3 {
+    background-image: url(../img/SiloAereo01-p-500.jpeg);
+    background-size: cover;
 }
 
-.servImagen5{
-background-image: url(../img/Elevador1-p-500.png);
-background-size: cover;
-    }
+.servImagen4 {
+    background-image: url(../img//Transportador2-p-800.png);
+    background-size: cover;
+}
 
-.servImagen6{
-background-image: url(../img/);
-background-size: cover;
+.servImagen5 {
+    background-image: url(../img/Elevador1-p-500.png);
+    background-size: cover;
+}
+
+.servImagen6 {
+    background-image: url(../img/);
+    background-size: cover;
 }
 
 /* Trabajos */
 .cuerpoTrab {
-    font-size: 25px; 
+    font-size: 25px;
 }
 
-.fotoTrabajo{
+.fotoTrabajo {
     height: 300px;
-    width: 23% ;
+    width: 23%;
     display: inline-block;
     margin: 10px;
 }
 
-.fotoTrabajo img{
+.fotoTrabajo img {
     height: 100%;
     width: 100%;
 
@@ -228,35 +234,37 @@ background-size: cover;
 .galeria {
     margin: 40px 10px 30px 10px;
 }
- 
 
 
-.cuerpoContacto{
+
+.cuerpoContacto {
     text-align: justify;
-    height: 360px ;
+    height: 360px;
     width: 42%;
     font-size: 17pt;
     display: inline-block;
 }
 
-.contactoFormulario{
+.contactoFormulario {
     height: auto;
     width: 42%;
     float: right;
 }
 
-.contactoFormulario label{
+.contactoFormulario label {
     font-size: 12pt;
     font-weight: bold;
 
 }
-.contactoFormulario input, textarea{
+
+.contactoFormulario input,
+textarea {
     font-size: 12pt;
     resize: none;
 }
 
 #footerContacto {
-height: 150px
+    height: 150px
 }
 
 
@@ -268,8 +276,13 @@ height: 150px
         justify-content: end;
         font-size: 30px;
     }
+
+    .jumbotron-fluid div {
+        width: 1000px;
+    }
 }
-@media screen and (min-width: 700px) {
+
+@media screen and (min-width: 576px) and (max-width: 1023px) {
     #navegacion {
         width: 100%;
         display: flex;
@@ -277,13 +290,40 @@ height: 150px
         justify-content: end;
 
     }
+
+    .jumbotron-fluid {
+        height: 300px;
+    }
+
+    .jumbotron-fluid div {
+        width: 570px;
+    }
+
+    h1 {
+        margin-top: 150px;
+        font-size: 27px;
+    }
 }
 
 
-@media screen and (max-width: 440px) {
-    .logo a{
+@media screen and (max-width: 575px) {
+    .logo a {
         font-size: 13px;
         margin-left: 0px;
         padding: 0px;
+    }
+
+    .jumbotron-fluid {
+        height: 250px;
+
+    }
+
+    .jumbotron-fluid div {
+        width: 310px;
+    }
+
+    h1 {
+        margin-top: 125px;
+        font-size: 15px;
     }
 }
