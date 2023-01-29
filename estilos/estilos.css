@@ -58,13 +58,6 @@ header {
     color: white;
 }
 
-
-main {
-    margin: 60px 50px;
-    padding: 30px 30px;
-    background-color: white;
-}
-
 .jumbotron-fluid {
     height: 500px;
     padding: 0;
@@ -86,13 +79,11 @@ h1 {
 }
 
 
-
-
-
 .intro {
     height: auto;
     width: auto;
     margin: 30px 40px 8px;
+    margin-bottom: 5px;
     padding: 15px 20px;
     font-size: 18px;
     text-align: start;
@@ -103,9 +94,18 @@ h1 {
     border: 3px solid rgb(194, 109, 12);
 }
 
+.carousel {
+    background-color: rgb(75, 74, 74);
+    background-image: linear-gradient(to right, #757575, #1A1A1A, #757575);
+    padding: 1px;
+    border: 2px solid rgb(112, 112, 112);
+}
+
+
 .carousel-inner img {
     width: 50%;
     height: 400px;
+    border: 1px solid black;
 }
 
 footer {
@@ -129,8 +129,6 @@ footer .redes a {
 }
 
 
-/* Trayectoria */
-
 h2 {
     text-align: center;
     font-size: 45px;
@@ -139,6 +137,13 @@ h2 {
 
 }
 
+main {
+    margin: 60px 50px;
+    padding: 30px 30px;
+    background-color: white;
+}
+
+/* Trayectoria */
 
 .cuerpoTray {
 
@@ -169,52 +174,55 @@ h2 {
 }
 
 .servicio {
-    background-color: aliceblue;
-    height: 250px;
+    margin-top: 30px;
+    border: 1px solid black;
 }
 
-.galeriaServicios {
+.servicio-img {
     width: 100%;
-    height: 250px;
-}
-
-.textoServicios {
-    font-size: 10pt;
-}
-
-
-
-
-
-.servImagen1 {
-    background-image: url(../img/estructura_metalica.jpg);
+    height: 450px;
     background-size: cover;
+    background-position: center;
+
 }
 
-.servImagen2 {
-    background-image: url(../img/grain_silos_1920.jpg);
-    background-size: cover;
+.servicio-img1 {
+    background-image: url(../img/technical-drawing-g929eef1de_1920.jpg);
 }
 
-.servImagen3 {
-    background-image: url(../img/SiloAereo01-p-500.jpeg);
-    background-size: cover;
+
+.servicio-img2 {
+    background-image: url(../img/ganad024kch576.jpg);
 }
 
-.servImagen4 {
-    background-image: url(../img//Transportador2-p-800.png);
-    background-size: cover;
+.servicio-img3 {
+    background-image: url(../img/Claaning_food_hygene_0117.jpg);
 }
 
-.servImagen5 {
-    background-image: url(../img/Elevador1-p-500.png);
-    background-size: cover;
+.servicio-img4 {
+    background-image: url(../img/mi-1044575_960_720.jpg) ;
+    background-position: right;
 }
 
-.servImagen6 {
-    background-image: url(../img/);
-    background-size: cover;
+.servicio-img5 {
+    background-image: url(../img/15fd5e9498d142de8254707f801d957e.jpg) ;
 }
+
+
+
+.servicio-texto{
+    font-size: 20px;
+}
+
+.servicio-texto strong{
+    color: rgb(194, 109, 12);
+}
+.servicio-texto a strong:hover{
+    text-decoration: underline;
+    color: rgb(206, 180, 6);
+    
+}
+
 
 /* Trabajos */
 .cuerpoTrab {
@@ -286,6 +294,14 @@ textarea {
 }
 
 @media screen and (min-width: 576px) and (max-width: 1023px) {
+
+    main {
+        margin: 40px 30px;
+        padding: 30px 10px;
+        background-color: white;
+        padding-right: 30px;
+    }
+
     #navegacion {
         width: 100%;
         display: flex;
@@ -310,13 +326,21 @@ textarea {
     .carousel-inner img {
         width: 70%;
     }
+
 }
 
 
 @media screen and (max-width: 575px) {
-    .intro{
+    .intro {
         margin: 10px 5px;
     }
+
+    main {
+        margin: 25px 10px;
+        padding: 30px 10px;
+        background-color: white;
+    }
+
 
     .logo a {
         font-size: 13px;
@@ -338,8 +362,20 @@ textarea {
         font-size: 15px;
     }
 
+    .carousel {
+        padding: 2px;
+    }
+
     .carousel-inner img {
         width: 100%;
         height: 400px;
     }
+
+    .servicio-img {
+        background-color: red;
+        width: 100%;
+        height: 280px;
+        background-size: cover;
+    }
+
 }
