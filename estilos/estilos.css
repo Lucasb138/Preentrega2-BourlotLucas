@@ -109,11 +109,13 @@ h1 {
 }
 
 footer {
+    border: 2px solid black;
     height: auto;
     width: 100%;
     background-color: rgb(194, 109, 12);
     color: white;
     text-align: center;
+    background-image: linear-gradient(to right, rgb(194, 80, 12)  , rgb(229, 138, 33), rgb(194, 88, 12) );
 }
 
 footer h4 {
@@ -183,7 +185,6 @@ main {
     height: 450px;
     background-size: cover;
     background-position: center;
-
 }
 
 .servicio-img1 {
@@ -214,13 +215,13 @@ main {
     font-size: 20px;
 }
 
-.servicio-texto strong{
+.link-contacto strong{
     color: rgb(194, 109, 12);
 }
-.servicio-texto a strong:hover{
+
+.link-contacto strong:hover{
     text-decoration: underline;
     color: rgb(206, 180, 6);
-    
 }
 
 
