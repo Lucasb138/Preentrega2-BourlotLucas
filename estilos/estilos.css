@@ -1,382 +1,409 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 body {
-    background-color: rgb(117, 117, 117);
+  background-color: rgb(117, 117, 117);
 }
 
 header {
-    background-color: rgb(88, 87, 87);
-    background-image: linear-gradient(to left, rgb(105, 105, 105), rgb(41, 41, 41));
-    width: 100%;
-    text-transform: capitalize;
-    border: 1px solid rgb(194, 109, 12);
+  background-color: rgb(88, 87, 87);
+  background-image: linear-gradient(to left, rgb(105, 105, 105), rgb(41, 41, 41));
+  width: 100%;
+  text-transform: capitalize;
+  border: 1px solid rgb(194, 109, 12);
 }
 
 .logo a {
-    margin-left: 0px;
-    padding: 0px;
+  margin-left: 0px;
+  padding: 0px;
 }
 
 #logo-img {
-    height: 80px;
-    width: 80px;
-    background-image: url(../img/Silgar\ copia.PNG);
-    background-size: cover;
+  height: 80px;
+  width: 80px;
+  background-image: url(../img/Silgar\ copia.PNG);
+  background-size: cover;
 }
-
-
-
 
 #navegacion {
-    font-size: 18px;
+  font-size: 18px;
 }
-
 #navegacion a {
-    color: white;
+  color: white;
 }
-
 #navegacion a:hover {
-    color: rgb(194, 109, 12);
-    text-decoration: underline;
+  color: rgb(194, 109, 12);
+  text-decoration: underline;
 }
-
 
 .navbar-brand {
-    color: rgb(194, 109, 12) !important;
-    font-weight: bold;
-    padding-top: 10px;
-    margin-left: 10px;
-
-}
-
-.barra {
-    color: white;
+  color: rgb(194, 109, 12) !important;
+  font-weight: bold;
+  padding-top: 10px;
+  margin-left: 10px;
 }
 
 .jumbotron-fluid {
-    height: 500px;
-    padding: 0;
-    background-color: #333;
-    background-image: url(../img/industry-ged8380efc_1920.jpg);
-    background-size: cover;
-    background-position: center;
-    color: white;
-    border: 2px solid rgb(14, 2, 17);
+  height: 500px;
+  padding: 0;
+  background-color: #333;
+  background-image: url(../img/industry-ged8380efc_1920.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border: 2px solid rgb(14, 2, 17);
 }
 
 h1 {
-    width: 100%;
-    margin-top: 250px;
-    font-weight: bold;
-    border: 2px solid rgb(194, 109, 12);
-    border-radius: 10px;
-    background-color: rgba(51, 51, 51, 0.404);
+  width: 100%;
+  margin-top: 250px;
+  font-weight: bold;
+  border: 2px solid rgb(194, 109, 12);
+  border-radius: 10px;
+  background-color: rgba(51, 51, 51, 0.404);
 }
 
-
 .intro {
-    height: auto;
-    width: auto;
-    margin: 30px 40px 8px;
-    margin-bottom: 5px;
-    padding: 15px 20px;
-    font-size: 18px;
-    text-align: start;
-    color: rgb(0, 0, 0);
-    border-style: solid;
-    border-color: #041529;
-    background-color: rgba(255, 255, 255, 0.815);
-    border: 3px solid rgb(194, 109, 12);
+  height: auto;
+  width: auto;
+  margin: 30px 40px 8px;
+  margin-bottom: 5px;
+  padding: 15px 20px;
+  font-size: 18px;
+  text-align: start;
+  color: rgb(0, 0, 0);
+  border-style: solid;
+  border-color: #041529;
+  background-color: rgba(255, 255, 255, 0.815);
+  border: 3px solid rgb(194, 109, 12);
 }
 
 .carousel {
-    background-color: rgb(75, 74, 74);
-    background-image: linear-gradient(to right, #757575, #1A1A1A, #757575);
-    padding: 1px;
-    border: 2px solid rgb(112, 112, 112);
+  background-color: rgb(75, 74, 74);
+  background-image: linear-gradient(to right, #757575, #1A1A1A, #757575);
+  padding: 1px;
+  border: 2px solid rgb(112, 112, 112);
 }
 
-
 .carousel-inner img {
-    width: 50%;
-    height: 400px;
-    border: 1px solid black;
+  width: 50%;
+  height: 400px;
+  border: 1px solid black;
 }
 
 footer {
-    border: 2px solid black;
-    height: auto;
-    width: 100%;
-    background-color: rgb(194, 109, 12);
-    color: white;
-    text-align: center;
-    background-image: linear-gradient(to right, rgb(194, 80, 12)  , rgb(229, 138, 33), rgb(194, 88, 12) );
+  height: auto;
+  width: 100%;
+  background-color: rgb(194, 109, 12);
+  color: white;
+  text-align: center;
 }
-
 footer h4 {
-    font-size: 35px;
+  font-size: 35px;
 }
-
-
-footer .redes a {
-    text-decoration: none;
-    font-size: 50px;
-    letter-spacing: 20px;
-    color: white;
+footer a {
+  text-decoration: none;
+  font-size: 50px;
+  letter-spacing: 20px;
+  color: white;
 }
-
+footer a:hover {
+  color: rgb(88, 87, 87);
+  text-decoration: none;
+}
 
 h2 {
-    text-align: center;
-    font-size: 45px;
-    margin-bottom: 30px;
-    text-decoration: underline;
-
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 30px;
+  text-decoration: underline;
 }
 
 main {
-    margin: 60px 50px;
-    padding: 30px 30px;
-    background-color: white;
+  margin: 60px 50px;
+  padding: 30px 30px;
+  background-color: white;
 }
 
 /* Trayectoria */
-
 .cuerpoTray {
-
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .fecha {
-    margin-top: 40px;
-    height: 80px;
-    width: 100px;
-    line-height: 80px;
-    text-align: center;
-    float: left;
-    background-color: red;
+  margin-top: 40px;
+  height: 80px;
+  width: 100px;
+  line-height: 80px;
+  text-align: center;
+  float: left;
+  background-color: red;
 }
 
 .cuerpoTray .desan {
-    margin-top: 40px;
-    font-size: 26px;
-    margin-left: 140px;
-    padding-left: 10px;
+  margin-top: 40px;
+  font-size: 26px;
+  margin-left: 140px;
+  padding-left: 10px;
 }
 
 /* Servicios */
-
 .cuerpoServ {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .servicio {
-    margin-top: 30px;
-    border: 1px solid black;
+  margin-top: 30px;
+  border: 1px solid black;
 }
 
 .servicio-img {
-    width: 100%;
-    height: 450px;
-    background-size: cover;
-    background-position: center;
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-position: center;
 }
 
 .servicio-img1 {
-    background-image: url(../img/technical-drawing-g929eef1de_1920.jpg);
+  background-image: url(../img/technical-drawing-g929eef1de_1920.jpg);
 }
 
-
 .servicio-img2 {
-    background-image: url(../img/ganad024kch576.jpg);
+  background-image: url(../img/ganad024kch576.jpg);
 }
 
 .servicio-img3 {
-    background-image: url(../img/Claaning_food_hygene_0117.jpg);
+  background-image: url(../img/Claaning_food_hygene_0117.jpg);
 }
 
 .servicio-img4 {
-    background-image: url(../img/mi-1044575_960_720.jpg) ;
-    background-position: right;
+  background-image: url(../img/mi-1044575_960_720.jpg);
+  background-position: right;
 }
 
 .servicio-img5 {
-    background-image: url(../img/15fd5e9498d142de8254707f801d957e.jpg) ;
+  background-image: url(../img/15fd5e9498d142de8254707f801d957e.jpg);
 }
 
-
-
-.servicio-texto{
-    font-size: 20px;
+.servicio-texto {
+  font-size: 20px;
 }
 
-.link-contacto strong{
-    color: rgb(194, 109, 12);
+.linkContacto {
+  color: rgb(194, 109, 12);
 }
 
-.link-contacto strong:hover{
-    text-decoration: underline;
-    color: rgb(206, 180, 6);
+.linkContacto:hover {
+  text-decoration: underline;
+  color: rgb(206, 180, 6);
 }
-
 
 /* Trabajos */
 .cuerpoTrab {
-    font-size: 25px;
-}
-
-.fotoTrabajo {
-    height: 300px;
-    width: 23%;
-    display: inline-block;
-    margin: 10px;
-}
-
-.fotoTrabajo img {
-    height: 100%;
-    width: 100%;
-
+  font-size: 25px;
 }
 
 .galeria {
-    margin: 40px 10px 30px 10px;
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 450px);
+  grid-template-areas: "trabajo-1 trabajo-2 trabajo-2" "trabajo-1 trabajo-3 trabajo-4" "trabajo-5 trabajo-6 trabajo-7" "trabajo-8 trabajo-10 trabajo-10" "trabajo-9 trabajo-10 trabajo-10";
 }
 
+.fotoTrabajo {
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid rgb(88, 87, 87);
+}
 
+.fotoTrabajo-1 {
+  background-image: url(../img/Trab1.jpg);
+  grid-area: trabajo-1;
+}
+
+.fotoTrabajo-2 {
+  background-image: url(../img/Trab2.jpg);
+  grid-area: trabajo-2;
+}
+
+.fotoTrabajo-3 {
+  background-image: url(../img/Trab3.jpg);
+  grid-area: trabajo-3;
+}
+
+.fotoTrabajo-4 {
+  background-image: url(../img/Trab4.jpg);
+  grid-area: trabajo-4;
+}
+
+.fotoTrabajo-5 {
+  background-image: url(../img/Trab5.jpg);
+  grid-area: trabajo-5;
+}
+
+.fotoTrabajo-6 {
+  background-image: url(../img/Trab6.jpg);
+  grid-area: trabajo-6;
+}
+
+.fotoTrabajo-7 {
+  background-image: url(../img/Trab7.jpg);
+  grid-area: trabajo-7;
+}
+
+.fotoTrabajo-8 {
+  background-image: url(../img/Trab8.jpg);
+  grid-area: trabajo-8;
+}
+
+.fotoTrabajo-9 {
+  background-image: url(../img/Trab9.jpg);
+  grid-area: trabajo-9;
+}
+
+.fotoTrabajo-10 {
+  background-image: url(../img/Trab10.jpg);
+  grid-area: trabajo-10;
+}
+
+.galeria {
+  margin: 40px 10px 30px 10px;
+}
 
 .cuerpoContacto {
-    text-align: justify;
-    height: 360px;
-    width: 42%;
-    font-size: 17pt;
-    display: inline-block;
+  text-align: justify;
+  height: 360px;
+  width: 42%;
+  font-size: 17pt;
+  display: inline-block;
 }
 
 .contactoFormulario {
-    height: auto;
-    width: 42%;
-    float: right;
+  height: auto;
+  width: 42%;
+  float: right;
 }
-
 .contactoFormulario label {
-    font-size: 12pt;
-    font-weight: bold;
-
+  font-size: 12pt;
+  font-weight: bold;
 }
-
-.contactoFormulario input,
-textarea {
-    font-size: 12pt;
-    resize: none;
+.contactoFormulario input, .contactoFormulario textarea {
+  font-size: 12pt;
+  resize: none;
 }
-
-#footerContacto {
-    height: 150px
-}
-
 
 @media screen and (min-width: 1024px) {
-    #navegacion {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: end;
-        font-size: 30px;
-    }
-
-    .jumbotron-fluid div {
-        width: 1000px;
-    }
+  #navegacion {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    font-size: 30px;
+  }
+  .jumbotron-fluid div {
+    width: 1000px;
+  }
 }
-
 @media screen and (min-width: 576px) and (max-width: 1023px) {
-
-    main {
-        margin: 40px 30px;
-        padding: 30px 10px;
-        background-color: white;
-        padding-right: 30px;
-    }
-
-    #navegacion {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: end;
-
-    }
-
-    .jumbotron-fluid {
-        height: 300px;
-    }
-
-    .jumbotron-fluid div {
-        width: 570px;
-    }
-
-    h1 {
-        margin-top: 150px;
-        font-size: 27px;
-    }
-
-    .carousel-inner img {
-        width: 70%;
-    }
-
+  main {
+    margin: 40px 30px;
+    padding: 30px 10px;
+    background-color: white;
+    padding-right: 30px;
+  }
+  #navegacion {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+  }
+  .jumbotron-fluid {
+    height: 300px;
+  }
+  .jumbotron-fluid div {
+    width: 570px;
+  }
+  h1 {
+    margin-top: 150px;
+    font-size: 27px;
+  }
+  .carousel-inner img {
+    width: 70%;
+  }
+  .galeria {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: 800px repeat(8, 450px);
+    margin: 0;
+    grid-template-areas: "trabajo-1" "trabajo-2" "trabajo-3" "trabajo-4" "trabajo-5" "trabajo-6" "trabajo-7" "trabajo-8" "trabajo-9" "trabajo-10";
+  }
+  .fotoTrabajo-1 {
+    height: 800px;
+  }
 }
-
-
 @media screen and (max-width: 575px) {
-    .intro {
-        margin: 10px 5px;
-    }
-
-    main {
-        margin: 25px 10px;
-        padding: 30px 10px;
-        background-color: white;
-    }
-
-
-    .logo a {
-        font-size: 13px;
-        margin-left: 0px;
-        padding: 0px;
-    }
-
-    .jumbotron-fluid {
-        height: 250px;
-
-    }
-
-    .jumbotron-fluid div {
-        width: 310px;
-    }
-
-    h1 {
-        margin-top: 125px;
-        font-size: 15px;
-    }
-
-    .carousel {
-        padding: 2px;
-    }
-
-    .carousel-inner img {
-        width: 100%;
-        height: 400px;
-    }
-
-    .servicio-img {
-        background-color: red;
-        width: 100%;
-        height: 280px;
-        background-size: cover;
-    }
-
-}
+  .intro {
+    margin: 10px 5px;
+  }
+  main {
+    margin: 10px 0px;
+    padding: 30px 10px;
+    background-color: white;
+  }
+  .logo a {
+    font-size: 13px;
+    margin-left: 0px;
+    padding: 0px;
+  }
+  .jumbotron-fluid {
+    height: 250px;
+  }
+  .jumbotron-fluid div {
+    width: 310px;
+  }
+  h1 {
+    margin-top: 125px;
+    font-size: 15px;
+  }
+  .carousel {
+    padding: 2px;
+  }
+  .carousel-inner img {
+    width: 100%;
+    height: 400px;
+  }
+  .servicio-img {
+    width: 100%;
+    height: 280px;
+    background-size: cover;
+  }
+  .galeria {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: 800px repeat(9, 450px);
+    margin: 0;
+    grid-template-areas: "trabajo-1" "trabajo-2" "trabajo-3" "trabajo-4" "trabajo-5" "trabajo-6" "trabajo-7" "trabajo-8" "trabajo-9" "trabajo-10";
+  }
+  .fotoTrabajo {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid rgb(88, 87, 87);
+  }
+  .fotoTrabajo-1 {
+    height: 750px;
+  }
+}/*# sourceMappingURL=estilos.css.map */
