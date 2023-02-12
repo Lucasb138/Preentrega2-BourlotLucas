@@ -135,20 +135,18 @@ main {
 }
 
 .fecha {
-  margin-top: 40px;
+  margin: 10px 5px;
+  margin-left: 5px;
+  align-self: center;
   height: 80px;
   width: 100px;
   line-height: 80px;
   text-align: center;
-  float: left;
-  background-color: red;
+  background-color: rgb(190, 55, 21);
 }
 
-.cuerpoTray .desan {
-  margin-top: 40px;
-  font-size: 26px;
-  margin-left: 140px;
-  padding-left: 10px;
+.desan {
+  margin: auto;
 }
 
 /* Servicios */
@@ -280,16 +278,16 @@ main {
 
 .cuerpoContacto {
   text-align: justify;
-  height: 360px;
-  width: 42%;
   font-size: 17pt;
-  display: inline-block;
+  margin: 15px;
+}
+.cuerpoContacto ul {
+  list-style: none;
 }
 
 .contactoFormulario {
+  align-items: end;
   height: auto;
-  width: 42%;
-  float: right;
 }
 .contactoFormulario label {
   font-size: 12pt;
@@ -309,7 +307,7 @@ main {
     font-size: 30px;
   }
   .jumbotron-fluid div {
-    width: 1000px;
+    width: 80%;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 1023px) {
