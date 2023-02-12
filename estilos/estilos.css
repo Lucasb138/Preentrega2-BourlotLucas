@@ -293,7 +293,8 @@ main {
   font-size: 12pt;
   font-weight: bold;
 }
-.contactoFormulario input, .contactoFormulario textarea {
+.contactoFormulario input,
+.contactoFormulario textarea {
   font-size: 12pt;
   resize: none;
 }
