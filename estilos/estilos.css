@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Manrope", sans-serif;
 }
 
 body {
@@ -102,8 +104,13 @@ footer {
   color: white;
   text-align: center;
 }
-footer h4 {
+footer em {
   font-size: 35px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
 }
 footer a {
   text-decoration: none;
@@ -142,12 +149,18 @@ main {
   width: 100px;
   line-height: 80px;
   text-align: center;
-  background-color: rgb(190, 55, 21);
+  background-color: rgb(172, 170, 128);
   border: 2px solid black;
 }
 
 .desan {
+  background-color: rgb(199, 198, 156);
+  margin: 10px;
+  border: 1px solid black;
+}
+.desan p {
   margin: auto;
+  font-family: "Heebo", sans-serif;
 }
 
 /* Servicios */
@@ -190,6 +203,9 @@ main {
 
 .servicio-texto {
   font-size: 20px;
+}
+.servicio-texto p {
+  font-family: "Heebo", sans-serif;
 }
 
 .linkContacto {
@@ -338,6 +354,9 @@ main {
   .carousel-inner img {
     width: 70%;
   }
+  .fecha {
+    margin-left: 10px;
+  }
   .galeria {
     height: auto;
     width: 100%;
@@ -373,10 +392,14 @@ main {
   }
   h1 {
     margin-top: 125px;
-    font-size: 15px;
+    font-size: 25px;
+    padding: 0px 100px;
   }
   .carousel {
     padding: 2px;
+  }
+  .fecha {
+    margin-left: 10px;
   }
   .carousel-inner img {
     width: 100%;
