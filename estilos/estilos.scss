@@ -15,10 +15,17 @@ $color1: rgb(194, 109, 12);
 $color2: rgb(88, 87, 87);
 $fuente1: 'Heebo', sans-serif;
 
-
+// Diseño general de cada página
 body {
     background-color: rgb(117, 117, 117);
 }
+
+main {
+    margin: 60px 50px;
+    padding: 30px 30px;
+    background-color: white;
+}
+
 
 header {
     background-color: $color2;
@@ -68,6 +75,55 @@ header {
     margin-left: 10px;
 
 }
+
+h2 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+
+}
+
+footer {
+    height: auto;
+    width: 100%;
+    background-color: $color1;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to right, $color1, rgb(209, 198, 45, 0.65));
+    border: #041529 solid 1px;
+    
+
+
+    em {
+        font-size: 35px;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;  
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+        }
+    
+
+
+    a {
+        text-decoration: none;
+        font-size: 50px;
+        letter-spacing: 20px;
+        color: white;
+        
+    }
+
+    a:hover {
+        color: $color2;
+        text-decoration: none;
+    }
+
+
+}
+
+// index
+
 
 .jumbotron-fluid {
     height: 500px;
@@ -119,55 +175,8 @@ h1 {
     border: 1px solid black;
 }
 
-footer {
-    height: auto;
-    width: 100%;
-    background-color: $color1;
-    color: white;
-    text-align: center;
 
 
-    em {
-        font-size: 35px;
-        font-weight: bold;
-        font-family: Georgia, 'Times New Roman', Times, serif;  
-        margin-bottom: 0.5rem;
-        font-weight: 500;
-        line-height: 1.2;
-        }
-    
-
-
-    a {
-        text-decoration: none;
-        font-size: 50px;
-        letter-spacing: 20px;
-        color: white;
-        
-    }
-
-    a:hover {
-        color: $color2;
-        text-decoration: none;
-    }
-
-}
-
-// Cada ./paginas
-
-h2 {
-    text-align: center;
-    font-size: 45px;
-    margin-bottom: 30px;
-    text-decoration: underline;
-
-}
-
-main {
-    margin: 60px 50px;
-    padding: 30px 30px;
-    background-color: white;
-}
 
 /* Trayectoria */
 
@@ -184,12 +193,12 @@ main {
     width: 100px;
     line-height: 80px;
     text-align: center;
-    background-color: rgb(172, 170, 128);
+    background-color: $color1;
     border: 2px solid black;
 }
 
 .desan {
-    background-color: rgb(199, 198, 156);
+    background-color: rgb(194, 152, 36);
     margin: 10px;
     border: 1px solid black;
 
@@ -198,6 +207,7 @@ main {
         font-family: $fuente1;
     }
 }
+
 
 /* Servicios */
 
@@ -286,7 +296,14 @@ main {
     background-size: cover;
     background-position: center;
     border: 2px solid $color2;
+    filter: grayscale(0%);
 }
+
+.fotoTrabajo:hover {
+    transition: 0.4s;
+    filter: grayscale(100%);
+}
+
 
 @for $ft from 1 through 10 {
     .fotoTrabajo-#{$ft} {
@@ -330,6 +347,8 @@ main {
         resize: none;
     }
 }
+
+// Media y responsive
 
 @media screen and (min-width: 1024px) {
     #navegacion {

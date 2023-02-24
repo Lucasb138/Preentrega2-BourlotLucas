@@ -11,6 +11,12 @@ body {
   background-color: rgb(117, 117, 117);
 }
 
+main {
+  margin: 60px 50px;
+  padding: 30px 30px;
+  background-color: white;
+}
+
 header {
   background-color: rgb(88, 87, 87);
   background-image: linear-gradient(to left, rgb(105, 105, 105), rgb(41, 41, 41));
@@ -47,6 +53,41 @@ header {
   font-weight: bold;
   padding-top: 10px;
   margin-left: 10px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 30px;
+  text-decoration: underline;
+}
+
+footer {
+  height: auto;
+  width: 100%;
+  background-color: rgb(194, 109, 12);
+  color: white;
+  text-align: center;
+  background-image: linear-gradient(to right, rgb(194, 109, 12), rgba(209, 198, 45, 0.65));
+  border: #041529 solid 1px;
+}
+footer em {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+footer a {
+  text-decoration: none;
+  font-size: 50px;
+  letter-spacing: 20px;
+  color: white;
+}
+footer a:hover {
+  color: rgb(88, 87, 87);
+  text-decoration: none;
 }
 
 .jumbotron-fluid {
@@ -97,45 +138,6 @@ h1 {
   border: 1px solid black;
 }
 
-footer {
-  height: auto;
-  width: 100%;
-  background-color: rgb(194, 109, 12);
-  color: white;
-  text-align: center;
-}
-footer em {
-  font-size: 35px;
-  font-weight: bold;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  margin-bottom: 0.5rem;
-  font-weight: 500;
-  line-height: 1.2;
-}
-footer a {
-  text-decoration: none;
-  font-size: 50px;
-  letter-spacing: 20px;
-  color: white;
-}
-footer a:hover {
-  color: rgb(88, 87, 87);
-  text-decoration: none;
-}
-
-h2 {
-  text-align: center;
-  font-size: 45px;
-  margin-bottom: 30px;
-  text-decoration: underline;
-}
-
-main {
-  margin: 60px 50px;
-  padding: 30px 30px;
-  background-color: white;
-}
-
 /* Trayectoria */
 .cuerpoTray {
   font-size: 25px;
@@ -149,12 +151,12 @@ main {
   width: 100px;
   line-height: 80px;
   text-align: center;
-  background-color: rgb(172, 170, 128);
+  background-color: rgb(194, 109, 12);
   border: 2px solid black;
 }
 
 .desan {
-  background-color: rgb(199, 198, 156);
+  background-color: rgb(194, 152, 36);
   margin: 10px;
   border: 1px solid black;
 }
@@ -237,6 +239,12 @@ main {
   background-size: cover;
   background-position: center;
   border: 2px solid rgb(88, 87, 87);
+  filter: grayscale(0%);
+}
+
+.fotoTrabajo:hover {
+  transition: 0.4s;
+  filter: grayscale(100%);
 }
 
 .fotoTrabajo-1 {
