@@ -243,7 +243,7 @@ h1 {
 }
 
 .fotoTrabajo:hover {
-  transition: 0.4s;
+  transition: 0.8s;
   filter: grayscale(100%);
 }
 
