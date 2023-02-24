@@ -380,7 +380,7 @@ h1 {
 }
 @media screen and (max-width: 575px) {
   .intro {
-    margin: 10px 5px;
+    margin: 10px 6px;
   }
   main {
     margin: 10px 0px;
